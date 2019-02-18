@@ -1,0 +1,113 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	background-color: #ff8e96;
+}
+
+.header {
+	font-size: 28px;
+	color: white;
+	font-weight: 300;
+	background-color: black;
+	font-family: 'Pacifico', cursive;
+}
+/*LEWA*/
+div.left {
+	border-color: #e02340;
+}
+.bajgel {
+	position: relative;
+	opacity: 0;
+	transition: all 1.2s ease-in-out;
+	z-index: 10;
+
+}
+.bajgel:hover {
+	opacity: 1;
+
+}
+.text-left{
+	position: fixed;
+	z-index: 1;
+	color: #ffc3bb;
+	font-size: 50px;
+	bottom: 45%;
+	left: 15%;
+
+}
+/*ŚRODEK*/
+div.middle img.cup {
+	position: relative;
+	z-index: 10;
+	opacity: 0;
+	transition: all 1.2s ease-in-out;
+}
+
+div.middle img.cup:hover {
+	opacity: 1;
+}
+
+.middle-top i {
+	position: fixed;
+	z-index: 1;
+	color: #ffc3bb;
+	font-size: 50px;
+	top: 25%;
+	right: 50%;
+}
+
+.plate {
+	position: relative;
+	opacity: 0;
+	transition: all 1.2s ease-in-out;
+	z-index: 10;
+}
+.plate:hover {
+	opacity: 1;
+}
+
+.middle-bottom i {
+	position: fixed;
+	z-index: 1;
+	color: #ffc3bb;
+	font-size: 50px;
+	bottom: 25%;
+	right: 50%;
+}
+/*PRAWA*/
+.czeko {
+	position: relative;
+	opacity: 0;
+	transition: all 1.2s ease-in-out;
+	z-index: 10;
+}
+.czeko:hover{
+	opacity: 1;
+}
+.text-right {
+	position: fixed;
+	z-index: 1;
+	color: #ffc3bb;
+	font-size: 50px;
+	bottom: 45%;
+	right: 15%;
+}
+
+
+
+/*STOPKA*/
+.footer {
+	/*position: absolute;*/
+	height: 30px;
+	background-color: black;
+}
+
+.footer a {
+	padding-left: 30px;
+	color: #fff;
+}

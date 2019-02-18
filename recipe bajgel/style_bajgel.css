@@ -1,0 +1,128 @@
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+.header {
+	background-color: black;
+	font-family: 'Pacifico', cursive;
+	z-index: 12;
+	position: relative;
+}
+
+.header a {
+	font-size: 28px;
+	color: white;
+	font-weight: 300;
+}
+
+
+.fotos {
+	position:fixed ;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index: 10;
+}
+
+.row {
+	align-content: center;
+}
+
+img {
+	max-height: 100%; 
+	width:auto; 
+}
+
+h1 {
+	font-family: 'Cookie', cursive;
+	color: #ff8e96;
+	font-size: 4rem;
+	padding-top: 50px;
+}
+
+p {
+	font-family: 'Poppins', sans-serif;
+}
+
+.go-back {
+	font-family: 'Poppins', sans-serif;
+	color: #000;
+	font-size: .9rem;
+}
+
+.go-back:hover {
+	color: #ff8e96;
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+/*STOPKA*/
+.footer {
+	/*position: absolute;*/
+	height: 30px;
+	background-color: black;
+
+}
+
+.footer a {
+	padding-left: 30px;
+	color: #fff;
+}
+
+
+/*contakt*/
+.contact-name-input, .contact-mail-input, .contact-message-input {
+	width: 300px;
+	background-color: transparent;
+  	border-radius: 0;
+  	border-style: none none solid;
+  	border-color: #acceb7;
+  	border-bottom-width: 2px;
+  	border-bottom-
+  	font-family: inherit;
+ 	font-size: 1em;
+}
+
+.contact-name-input:focus {
+  outline: none;
+}
+.contact-mail-input:focus {
+  outline: none;
+}
+.contact-message-input:focus {
+  outline: none;
+}
+
+.linkContact {
+	display: block;
+	width: 300px;
+	position: relative;
+	font-size: 15px;
+	color: #ffffff;
+	background-color: #acceb7;
+	letter-spacing: .2rem;
+	padding: 10px 20px;
+	margin: 100px 0 auto;
+	transition: all 0.3s ease-in-out;
+	text-decoration: none;
+	text-align: center;
+	box-shadow: 0 6px #6f9b7e;
+}
+	
+a.linkContact:hover {
+    color: #ffffff;
+    box-shadow: 0 4px #6f9b7e;
+	top: 2px;
+	text-decoration: none;
+}
+a.linkContact:active {
+	box-shadow: none;
+	top: 6px;
+}
